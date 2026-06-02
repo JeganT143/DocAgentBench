@@ -1,0 +1,23 @@
+# Secrets - never commit these
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# UV / virtual environments
+.venv/
+.uv/
+uv.lock
+
+# Uploaded documents - data is not code
+data/uploads/
+
+# Editor
+.vscode/
+.idea/
+
+# Docker
+*.logNOTES.md
